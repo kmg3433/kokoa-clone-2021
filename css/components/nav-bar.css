@@ -11,7 +11,22 @@
   display: flex;
   justify-content: space-around;
 }
-
 .nav__link {
+  position: relative;
   color: #2e363e;
+}
+.nav__notification {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+.nav__dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  left: 33px;
+  bottom: 31px;
 }

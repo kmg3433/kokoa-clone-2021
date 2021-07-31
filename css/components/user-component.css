@@ -21,6 +21,8 @@
 .user-component__subtitles {
   display: flex;
   align-items: center;
+  display: flex;
+  align-items: flex-end;
 }
 .user-component__caution {
   margin-left: 7px;
